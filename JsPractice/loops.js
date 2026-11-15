@@ -65,7 +65,7 @@ for( const e of browser){
 }
 console.log("-----------")
 
-//for...in loop on object:
+//for...in loop on object:   we use in here to get values of the object properties:
 const user = {
     name:"John Doe" ,
     age :  30,
