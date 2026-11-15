@@ -35,6 +35,8 @@ console.log(femaleEmpOver30);
 
 //3. reduce:
 let numb = [1,2,3,4,5]; //15
+// accumulator is the value that is returned from the previous iteration which is zero
+
 let sum = numb.reduce((acc,num) => acc+num, 0);
 console.log(sum);
 //1st --> 0+1 = 1
@@ -44,6 +46,7 @@ console.log(sum);
 //5th--->10+5 = 15
 
 //max number in the array:
+// Interview question: find the max number in the array using reduce method
 let top = [10,5,25,8,30,15]; //30
 let maxNum = top.reduce((max,num) => {//max = 30, num = 8
     if(num > max){//8>30

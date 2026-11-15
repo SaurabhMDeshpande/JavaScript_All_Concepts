@@ -3,3 +3,6 @@ ifelse.js
 switchcase.js
 loop.js
 Arrays.js
+arraysmethods.js
+arraysmethods1.js
+funstions.js

@@ -30,6 +30,7 @@ let revFruits = frts.reverse();
 console.log(revFruits);
 
 //7. sort():
+// first number part will come then capital and then small letters will come
 let products = ['macbook', 'imac','samsung', 'canon' , '123test', 'Tshirt'];
 let proSort = products.sort();
 console.log(proSort);
