@@ -2,6 +2,7 @@
 //async call/task -- once this task is completed -- then only callback function will be called
 
 // //basic callback:
+// we can write anything in parameter of callback below
 // function greet(name, callback){
 //     console.log('Hello' + name);//normal/sync step/task , could be async call/api
 //     callback();
@@ -34,6 +35,7 @@
 
 //
 function fetchUserData(userId, callback) {
+  // settimeout is a async function
     setTimeout(function () {
       const users = {
         1: { id: 1, name: "Naveen" },
@@ -52,8 +54,10 @@ function fetchUserData(userId, callback) {
 //callback function:
 function handleUserData(error, user){
     if(error){
+          // if i add concatination operator here then it will return me object.
         console.error("Error :" , error);
     }else{
+      // if i add concatination operator here then it will return me object.
         console.log("User: " , user);
     }
 }

@@ -16,3 +16,9 @@ Day2
 -method overloading 
 -class concept
 -inheritance
+-quick tips
+-static concepts
+-method overriding
+-callback
+-sync
+
