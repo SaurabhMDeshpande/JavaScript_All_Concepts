@@ -1,3 +1,6 @@
+// parent can have n number of child classes but child class can have only one parent class.
+// multiple inheritance is not possible in js, but we can achieve it by using mixins
+// multi level inheritance is possible in js, but we can achieve it by using mixins
 class Automobile{
     constructor(chasisNumber){
         this.chasisNumber = chasisNumber;

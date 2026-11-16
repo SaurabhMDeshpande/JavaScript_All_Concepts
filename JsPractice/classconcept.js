@@ -12,7 +12,7 @@ class Car{
     }
 }
 
-//new keyword: to create the object:
+//new keyword: to create the object: duplicte constructor are not allowed in JS overloading is not alowed
 const c3 = new Car("Audi");
 console.log(c3.name);
 console.log(c3.price);

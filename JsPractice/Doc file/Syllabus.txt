@@ -1,8 +1,18 @@
-variable.js
-ifelse.js
-switchcase.js
-loop.js
-Arrays.js
-arraysmethods.js
-arraysmethods1.js
-funstions.js
+-variable.js
+-ifelse.js
+-switchcase.js
+-loop.js
+-Arrays.js
+-arraysmethods.js
+-arraysmethods1.js
+-funstions.js
+-arrowfunction.js
+-objectcreate
+10 are completed on Day1
+
+Day2
+-typeofconcept
+-method overloading is not possible in js
+-method overloading 
+-class concept
+-inheritance

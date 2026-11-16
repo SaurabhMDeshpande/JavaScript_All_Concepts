@@ -1,3 +1,4 @@
+// java script is run time language
 let x = 30;
 console.log(typeof x);
 
@@ -17,6 +18,7 @@ const arr = [1,2,3,4,5];
 console.log(typeof arr);
 
 const j = null;
+// type of null is object in js
 console.log(typeof j);
 
 let y;

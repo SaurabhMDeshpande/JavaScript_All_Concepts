@@ -11,11 +11,13 @@ function print(name, age){
     console.log("hi " + name + " age "+ age);
 
 }
-//calling:
+//calling: latest one will be called
 //print("Naveen", 20);
 //run test cases on remote machine:
 //browserName, browserVerison, remoteExecution
 
+
+//method overloading is not possible in js, but we can achieve it by using typeof operator
 function displayBrowserInfo(browserName, browserVerison, remoteExecution){
     if(typeof browserVerison === 'number' && typeof remoteExecution === 'boolean'){
         console.log(`Browser: ${browserName}, 'version:' ${browserVerison}, 'remoteExe:' ${remoteExecution} `);

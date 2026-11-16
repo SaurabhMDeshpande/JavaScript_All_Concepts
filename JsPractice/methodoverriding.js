@@ -1,5 +1,6 @@
 class Car{
     minSpeed = 100;
+    // wecannot overload constructor
     constructor(make, model){
         this.make = make;
         this.model = model;

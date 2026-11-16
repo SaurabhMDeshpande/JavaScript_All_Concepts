@@ -1,4 +1,5 @@
-const square = num => num * num;
+const square = (num) => num * num;
+//const square = num => num * num; this also works because there is only one parameter and one statement in the function body
 const result = square(5);
 console.log(result);
 

@@ -1,5 +1,6 @@
 //1. find unique values from array: spread operator
 const array = [1,2,3,2,3,2,5,6,2,7,7,7,7];
+// spread operator is used to convert set into array, because set is not an array.
 const uniqueArray = [...new Set(array)];
 console.log(uniqueArray);
 
@@ -93,6 +94,7 @@ console.log(user['dob']);
 
 //15. clone an array or object:
 const marks = [10,20,30,50,66,70];
+// clone an array using spread operator
 const marksDuplicate = [...marks];
 console.log(marksDuplicate);
 const userDuplicate = { ...user };//spread operator
@@ -118,7 +120,7 @@ const keyValArray = Object.entries(employee);
 console.log(keyValArray);
 
 
-//17. get current date and time:
+//17. get current date and time: interview question
 const currentDate = new Date();
 console.log(currentDate.toLocaleString());
 
