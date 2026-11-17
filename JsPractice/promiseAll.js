@@ -46,7 +46,7 @@
 
 
 
-//case 2: 
+//case 2: one is fullfilled and other is rejected
 //f1 -- resolved
 //f2 -- rejected
 
@@ -70,6 +70,7 @@ Promise.all([
     getData(),
     getError()
 ])
+// below one is handler
 .then(dataArray => {
     console.log("All data fetched: " + dataArray);
 })

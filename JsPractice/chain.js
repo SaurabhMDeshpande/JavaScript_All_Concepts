@@ -23,6 +23,7 @@ getEvenNumber(4, 1000)
             console.log("step 2 : gettng the result with even number: ", result);
 
         })
+        // if code is not in the chain, it will be handled by catch block
         .catch(error =>{
             console.error("promise chain error: ", error.message);
         });

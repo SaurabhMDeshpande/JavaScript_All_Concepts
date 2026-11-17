@@ -25,3 +25,9 @@ Day2
 -filesync.js
 -fileasync.js
 
+Day3
+-promiseconcept
+-chain.js promise chaining
+-promise all
+
+
