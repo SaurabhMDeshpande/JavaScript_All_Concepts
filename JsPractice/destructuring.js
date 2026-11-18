@@ -21,6 +21,7 @@ const user = {
     age: 30
 };
 
+// object destructuring:
 const {firstName, lastName, city="LA", age} = user;
 console.log(firstName);
 console.log(lastName);

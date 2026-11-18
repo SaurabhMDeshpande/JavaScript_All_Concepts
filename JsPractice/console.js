@@ -36,3 +36,12 @@ console.log("%c I love JavaScript Coding!!!",
                     "color:red; background-color:lightblue; border:solid");
 
 
+// console.clear();
+// console.count();
+//console.assert(flag,"counting");
+//console.trace();
+
+// add css style to console.log
+//console.log("%c I love JavaScript Coding!!!",
+//                    "color:red; background-color:lightblue; border:solid");
+

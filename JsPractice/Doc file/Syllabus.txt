@@ -42,3 +42,7 @@ asyncawait
 QURSTION  how many ways we can handle JS Asynchronus behaviour
 -fetch api
 -console
+-destructing
+-template literals
+-duplicate
+-reverse a number
