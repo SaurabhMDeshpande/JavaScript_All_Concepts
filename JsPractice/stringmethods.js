@@ -17,7 +17,7 @@ console.log("JavaScript".toUpperCase());
 console.log("JavaScript".slice(2,-5));//vaS
 // JavaScript
 // 0123456789
-//          -1
+//          -1 "t is -1 also -ve index means from end of string"
 //c=-5 and 5
 //t=9 and -1
 console.log("JavaScript".substring(2,6));//vaSc
@@ -33,6 +33,7 @@ console.log(arr[2]);
 console.log("JavaScript".includes("Java"));
 console.log("JavaScript".includes("Hello"));
 
+// only first occurrence will be replaced
 console.log("Dev Test Framework Dev".replace("Dev", "JS"));
 console.log("Dev Test Framework Dev".replaceAll("Dev", "JS"));
 
@@ -51,6 +52,7 @@ console.log("Java script".endsWith("script"));
 console.log("dev".repeat(3));
 
 console.log("Naveen Automation Labs".indexOf("Automation"));//7
+// if something is not available it will return -1
 console.log("Naveen Automation Labs".indexOf("N"));
 console.log("Naveen Automation Labs".indexOf("JS"));
 
