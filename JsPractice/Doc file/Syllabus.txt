@@ -37,4 +37,8 @@ Day3
 -coffee the callback hell
 -callbackhellvs promise chaining to solve above issue
 - till 29 completed
-
+-
+asyncawait
+QURSTION  how many ways we can handle JS Asynchronus behaviour
+-fetch api
+-console
