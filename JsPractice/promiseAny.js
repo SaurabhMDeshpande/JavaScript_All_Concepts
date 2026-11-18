@@ -2,6 +2,9 @@
 // However, unlike Promise.race(), Promise.any() doesn't reject immediately when the first promise rejects; 
 // instead, it waits until at least one promise fulfills/resolved.
 
+
+// first promise is rejected, second promise is rejected and third promise is resolved. So it will return the value of third promise.
+// if all promises are rejected then it will return AggregateError with all rejection reasons.
 const getMessage = () => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {

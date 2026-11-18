@@ -29,5 +29,12 @@ Day3
 -promiseconcept
 -chain.js promise chaining
 -promise all
+-promiseAllSettled
+-promise.race
+-till 26 all completed
 
+-callback hell check again
+-coffee the callback hell
+-callbackhellvs promise chaining to solve above issue
+- till 29 completed
 

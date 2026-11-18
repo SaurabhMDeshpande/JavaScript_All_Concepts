@@ -66,6 +66,7 @@ const getError = ()=>{
 });
 };
 
+// if one of the promise is rejected then it will go to catch block and will not wait for other promises to be resolved. It will return the error from rejected promise.
 Promise.all([
     getData(),
     getError()
@@ -77,3 +78,6 @@ Promise.all([
 .catch(error => {
     console.log("Error occured: ", error);
 })
+
+\
+// interview question: what is the difference betweenPromise,Promise.all and Promise.allSettled
