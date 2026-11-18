@@ -46,3 +46,4 @@ QURSTION  how many ways we can handle JS Asynchronus behaviour
 -template literals
 -duplicate
 -reverse a number
+-String methods
